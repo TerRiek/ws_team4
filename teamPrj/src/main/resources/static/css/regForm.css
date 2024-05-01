@@ -1,8 +1,15 @@
 @charset "UTF-8";
-
-h1 {
-	text-align: center;
-	color: red;
+h1{
+	text-align:center;
+}
+div{
+	width:100%;
+}
+table{
+	margin:0 auto;
+}
+input[type="submit"]{
+	width:100%;
 }
 a{
 	display:inline-block;
@@ -21,27 +28,3 @@ a:hover{
 	color:#333;
 	background-color:#fff;
 }
-
-div {
-	width: 100%;
-}
-
-table {
-	margin: 0 auto;
-}
-
-input:focus {
-	outline: none;
-}
-
-input[type="submit"] {
-	width:100%;
-}
-
-
-
-
-
-
-
-

@@ -18,7 +18,7 @@ public class MyController {
 	@Autowired
 	private IMemberDao dao;
 	
-	@RequestMapping("/")
+	@RequestMapping("/index")
 	public String root() {
 		
 		return "index";
