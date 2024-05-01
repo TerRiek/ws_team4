@@ -39,6 +39,5 @@ function checkReg(){
 		}
 	}
 	
-	
 	return false;
 }
