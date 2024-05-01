@@ -7,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>회원 페이지</h1>
+	<h1>Login</h1>
 	<hr>
-	<a href="list">회원 목록보기</a><br>
-	<a href="writeForm">회원 등록하기</a>
-	<a href="loginForm">로그인하기</a>
+	<form action="login" method="post">
+		id : <input type="text" name="id"><br>
+		pw : <input type="password" name="pw"><br>
+		<input type="submit" value="로그인">
+	</form>
 </body>
 </html>
