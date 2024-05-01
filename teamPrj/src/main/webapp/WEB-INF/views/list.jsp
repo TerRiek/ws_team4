@@ -32,7 +32,8 @@ ${sessionScope.id }님, 반갑습니다. <a href="logout">로그아웃</a>
 	
 </table>
 <c:if test="${sessionScope.id==null }">
-<a href="/writeForm">회원가입</a>
+<a href="/writeForm">회원가입</a><br>
+<a href="/loginForm">로그인</a>
 </c:if>
 </body>
 </html>
