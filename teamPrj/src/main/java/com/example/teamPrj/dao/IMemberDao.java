@@ -12,10 +12,10 @@ public interface IMemberDao {
 	
 	public List<MemberDto> getList();
 
-	public void write(String id, String pw, String name, int age);
+	public int write(String id, String pw, String name, int age);
 
 	public MemberDto getDto(@Param("mno") int mno);
 
-	public void delete(@Param("mno") int mno);
+	public int delete(@Param("mno") int mno);
 
 }
