@@ -10,6 +10,6 @@
 	<h1>회원 페이지</h1>
 	<hr>
 	<a href="list">회원 목록보기</a><br>
-	<a href="regForm">회원 등록하기</a>
+	<a href="writeForm">회원 등록하기</a>
 </body>
 </html>

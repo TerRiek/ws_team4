@@ -24,7 +24,7 @@ public class MyController {
 	}
 	
 	@RequestMapping("/writeForm")
-	public  String writeForm() {
+	public String writeForm() {
 		return "regForm";
 	}
 	

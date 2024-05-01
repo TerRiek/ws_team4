@@ -23,8 +23,11 @@
 			<td><a href="detail?mno=${dto.mno }">${dto.id }</a></td>
 			<td>${dto.name }</td>
 		</tr>
+		
 	</c:forEach>
 	</tbody>
+	
 </table>
+<a href="/writeForm">회원가입</a>
 </body>
 </html>
