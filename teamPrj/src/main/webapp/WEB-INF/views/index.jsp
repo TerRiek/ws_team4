@@ -5,9 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="/css/style.css">
+<style>
+
+</style>
 </head>
 <body>
-	<h1>Login</h1>
+	<h1>Index</h1>
 	<hr>
 	<form action="login" method="post">
 	<table border="1">
