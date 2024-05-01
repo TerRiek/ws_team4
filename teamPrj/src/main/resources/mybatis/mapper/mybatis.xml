@@ -8,6 +8,9 @@
 	<select id="getDto">
 		select * from membertbl where mno = #{mno}
 	</select>
+	<select id="loginCheck">
+		select count(id) from membertbl where id = #{id} and pw = #{pw}
+	</select>
 	
 	<insert id="write">
 		insert into membertbl(id, pw, name, age)
@@ -17,4 +20,5 @@
 	<delete id="delete">
 		delete from membertbl where mno = #{mno}
 	</delete>
+
 </mapper>

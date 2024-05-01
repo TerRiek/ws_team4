@@ -10,6 +10,9 @@
 <body>
 <h1>회원 목록 페이지</h1>
 <hr>
+<c:if test="${sessionScope.id!=null }">
+${sessionScope.id }님, 반갑습니다. <a href="logout">로그아웃</a>
+</c:if>
 <table border="1">
 	<thead>
 		<tr>
@@ -28,6 +31,8 @@
 	</tbody>
 	
 </table>
+<c:if test="${sessionScope.id==null }">
 <a href="/writeForm">회원가입</a>
+</c:if>
 </body>
 </html>

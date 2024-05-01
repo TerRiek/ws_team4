@@ -17,5 +17,7 @@ public interface IMemberDao {
 	public MemberDto getDto(@Param("mno") int mno);
 
 	public int delete(@Param("mno") int mno);
+	
+	public int loginCheck(@Param("id") String id, @Param("pw") String pw);
 
 }
